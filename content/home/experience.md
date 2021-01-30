@@ -29,12 +29,28 @@ experience:
     date_start: '2020-01-01'
     date_end: ''
     description: Devloping proof-of-concept testbeds for beyond 5G
-        
-  - title: Professor
-    company: University X
-    company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+
+  - title: Wireless Systems Engineer Intern
+    company: Samsung Research America
+    company_url: 'https://www.sra.samsung.com/'
+    location: Plano, TX
+    date_start: '2019-05-01'
+    date_end: '2019-08-31'
+    description: Developed CUDA accelerated PHY functions for 5G NR testbed.
+    
+ -  title: Wireless Systems Engineer Intern
+    company: Samsung Research America
+    company_url: 'https://www.sra.samsung.com/'
+    location: Plano, TX
+    date_start: '2017-05-01'
+    date_end: '2017-12-01'
+    description: Developed PoC testbed for wireless, spectrum sharing research.
+    
+ -  title: Senior Graduate Research Intern
+    company: Lockheed Martin
+    company_url = ""
+    location: Hanover, MD
+    date_start: '2016-05-01'
+    date_end: '2016-08-31'
+    description : Used GNURadio to develop custom tools for wireless security research.
 ---
