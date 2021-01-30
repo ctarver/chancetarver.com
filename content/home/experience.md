@@ -28,7 +28,7 @@ experience:
     location: Plano, Texas
     date_start: '2020-01-01'
     date_end: ''
-    description: Devloping proof-of-concept testbeds for beyond 5G
+    description: Devloping proof-of-concept testbeds for beyond 5G.
 
   - title: Wireless Systems Engineer Intern
     company: Samsung Research America
@@ -48,7 +48,6 @@ experience:
     
  -  title: Senior Graduate Research Intern
     company: Lockheed Martin
-    company_url = ""
     location: Hanover, MD
     date_start: '2016-05-01'
     date_end: '2016-08-31'
