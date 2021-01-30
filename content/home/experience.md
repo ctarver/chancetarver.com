@@ -36,7 +36,7 @@ experience:
     location: Plano, TX
     date_start: '2019-05-01'
     date_end: '2019-08-31'
-    description: Developed CUDA accelerated PHY functions for 5G NR testbed.
+    description: "Developed CUDA accelerated PHY functions for 5G NR testbed."
     
  -  title: Wireless Systems Engineer Intern
     company: Samsung Research America
