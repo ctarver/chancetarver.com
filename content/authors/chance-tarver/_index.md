@@ -28,4 +28,18 @@ organizations:
   - name: Samsung Research America
 email: "tarver.chance@gmail.com"
 superuser: true
+
 ---
+
+I am a DSP systems engineer with Samsung Research America, currently finishing my [PhD at Rice University](https://www.ece.rice.edu/) with [Dr. Joseph Cavallaro](http://cavallaro.rice.edu/).
+My main research intrests include:
+* Digital Predistortion
+* Massive MIMO
+* LDPC Channel Coding
+* Software Defined Radio
+
+
+Please read the Start Here page for more info and also consider signing up for my email newsletter below.
+
+**Subscribe to my email newsletter for updates:**
+<script async data-uid="74b1e1d76f" src="https://motivated-designer-8243.ck.page/74b1e1d76f/index.js"></script>
