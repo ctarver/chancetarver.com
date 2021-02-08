@@ -1,5 +1,5 @@
 ---
-title: Working with Python and Matla
+title: Working with Python and Matlab
 date: 2019-01-15T00:06:40.233Z
 draft: false
 featured: false
