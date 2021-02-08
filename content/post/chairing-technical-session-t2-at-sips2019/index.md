@@ -3,6 +3,8 @@ title: Chairing Technical Session T2 at SIPS2019
 date: 2019-10-10T23:13:07.725Z
 draft: false
 featured: false
+authors:
+  - ChanceTarver
 tags:
   - ProfessionalActivities
 image:
