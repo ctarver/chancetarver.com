@@ -106,7 +106,7 @@ email = "tarver.chance@gmail.com"
 #office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com/tarver-chance"
+#appointment_url = "https://calendly.com/tarver-chance"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
