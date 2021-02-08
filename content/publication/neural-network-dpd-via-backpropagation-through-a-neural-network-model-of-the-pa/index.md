@@ -7,7 +7,7 @@ authors:
   - Liwen Jiang
   - Aryan Sefidi
   - Joseph R. Cavallaro
-doi: " 10.1109/IEEECONF44664.2019.9048910"
+doi: 10.1109/IEEECONF44664.2019.9048910
 publication: 2019 53rd Asilomar Conference on Signals, Systems, and Computers
 abstract: We demonstrate digital predistortion (DPD) using a novel,
   neural-network (NN) method to combat the nonlinearities in power amplifiers
@@ -32,5 +32,5 @@ image:
   filename: featured
   focal_point: Smart
   preview_only: false
-date: 2021-02-08T00:23:28.461Z
+date: 2019-11-04T00:23:28.461Z
 ---
