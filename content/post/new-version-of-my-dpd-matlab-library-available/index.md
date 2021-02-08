@@ -8,7 +8,7 @@ tags:
   - MATLAB
   - RFWebLab
 image:
-  filename: dpd.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---
