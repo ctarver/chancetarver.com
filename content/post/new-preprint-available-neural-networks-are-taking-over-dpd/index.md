@@ -3,6 +3,8 @@ title: New Preprint Available. Neural Networks are taking over DPD!
 date: 2019-07-09T23:09:35.714Z
 draft: false
 featured: false
+authors:
+  - ChanceTarver
 tags:
   - DPD
   - MachineLearning
