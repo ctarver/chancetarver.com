@@ -45,6 +45,7 @@ featured: false
 tags:
   - GPU
   - LDPC
+  - OAI
 image:
   filename: featured
   focal_point: Smart
