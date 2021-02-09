@@ -4,9 +4,9 @@ title: Low-Complexity Subband Digital Predistortion for Spurious Emission
 publication_types:
   - "2"
 authors:
-  - Mahmoud Abdelaziz
-  - Lauri Anttila
-  - Chance Tarver
+  - '"Mahmoud Abdelaziz"'
+  - '"Lauri Anttila"'
+  - '"Chance Tarver"'
   - Kaipeng Li
   - Joseph R. Cavallaro
   - Mikko Valkama
