@@ -12,6 +12,7 @@ authors:
   - Jianzhong Zhang
   - Joseph R. Cavallaro
   - Joseph Camp
+doi: 10.1109/TCCN.2019.2929147
 publication: IEEE Transactions on Cognitive Communications and Networking
 publication_short: TCCN
 abstract: By implementing reinforcement learning-aided listen-before-talk (LBT)
