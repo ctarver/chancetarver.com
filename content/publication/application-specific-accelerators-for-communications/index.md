@@ -7,7 +7,7 @@ authors:
   - Yang Sun
   - Kiarash Amiri
   - Michael Brogioli
-  - Joseph R. Cavallaro
+  - joseph-r-cavallaro
 doi: 10.1007/978-3-319-91734-4_14
 publication: Handbook of Signal Processing Systems
 abstract: For computation-intensive digital signal processing algorithms,
