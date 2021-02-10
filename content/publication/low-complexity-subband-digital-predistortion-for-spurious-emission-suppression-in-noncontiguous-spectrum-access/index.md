@@ -6,7 +6,7 @@ publication_types:
 authors:
   - '"Mahmoud Abdelaziz"'
   - '"Lauri Anttila"'
-  - '"Chance Tarver"'
+  - Chance-Tarver
   - Kaipeng Li
   - Joseph R. Cavallaro
   - Mikko Valkama
