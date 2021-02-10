@@ -3,7 +3,7 @@ title: Application-specific accelerators for communications
 publication_types:
   - "6"
 authors:
-  - Chance Tarver
+  - Chance-Tarver
   - Yang Sun
   - Kiarash Amiri
   - Michael Brogioli
