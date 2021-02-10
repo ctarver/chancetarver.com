@@ -37,6 +37,9 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases = true  # Disable aliases when `redirects` is added to the `outputs` below.
 
+# Link authors to their profile page? (true/false)
+link_authors = true
+
 [permalinks]
   # If only creating events which are talks, we can optimize event URLs for talks.
   event = "/talk/:slug/"
