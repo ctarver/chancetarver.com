@@ -4,9 +4,9 @@ title: Design and Implementation of a Neural Network Based Predistorter for
 publication_types:
   - "1"
 authors:
-  - Chance Tarver
+  - chance-tarver
   - Alexios Balatsoukas-Stimming
-  - and Joseph R. Cavallaro
+  - joseph-r-cavallaro
 doi: 10.1109/SiPS47522.2019.9020606
 publication: 2019 IEEE International Workshop on Signal Processing Systems
 publication_short: SiPS
