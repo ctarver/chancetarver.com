@@ -3,7 +3,7 @@ title: GPU-Based Linearization of MIMO Arrays
 publication_types:
   - "1"
 authors:
-  - Chance Tarver
+  - Chance-Tarver
   - Arav Singhal
   - Joseph R. Cavallaro
 doi: 10.1109/SiPS50750.2020.9195239
