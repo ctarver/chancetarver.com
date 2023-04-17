@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Chance Tarver
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Chance
+last_name: Tarver
 
 # Status emoji
 status:
@@ -14,34 +14,37 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Staff Research Engineer for Wireless Systems
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
+  - name: Samsung Research America
     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: ""
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Massive MIMO
+  - Digital Predistortion
+  - Machine Learning
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Electrical and Computer Engineering
+      institution: Rice University
+      year: 2022
+    - course: MS in Electrical and Computer Engineering
+      institution: Rice University
+      year: 2016
+    - course: BSEE in Electrical Engineering
+      institution: Louisiana Tech University
+      year: 2014
+    - course: BS in Mathematics
+      institution: Louisiana Tech University
+      year: 2014	  
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -51,21 +54,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: graduation-cap
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=Ugx0hjwAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/ctarver
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/chance-tarver-93299466/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -80,5 +77,9 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a DSP systems engineer with Samsung Research America. I completed my [PhD at Rice University](https://www.ece.rice.edu/) with [Dr. Joseph Cavallaro](http://cavallaro.rice.edu/). 
+Please read the [Start Here](/me) page for more info and also consider signing up for my email newsletter below.
+
+**Subscribe to my email newsletter for updates:**
+<script async data-uid="74b1e1d76f" src="https://motivated-designer-8243.ck.page/74b1e1d76f/index.js"></script>
 {style="text-align: justify;"}
