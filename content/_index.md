@@ -46,18 +46,23 @@ sections:
     content:
       title: Skills
       items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
+        - name: DSP
+          description: Able to implement custom, complex signal processing tasks such as predistorters.
+          icon: wave-square
           icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
+        - name: Code
+          description: Codes daily in Matlab, Python, C++, or CUDA with a belief in well documented and version controlled code.
+          icon: code
           icon_pack: fas
+        - name: Wireless Systems
+          description: Background in PHY and MAC systems for 4G, 5G, Wi-Fi, etc.
+          icon: wifi
+          icon_pack: fas
+        - name: Open Education
+          description: Believes in sharing knowledge openly for the good of everyone. 
+          icon: chalkboard-teacher
+          icon_pack: fas		  
+		    
   - block: experience
     content:
       title: Experience
