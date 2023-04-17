@@ -87,7 +87,7 @@ sections:
               * Analysing
               * Modelling
               * Deploying        
-		- title: Senior Systems Design/Architecture Engineer
+        - title: Senior Systems Design/Architecture Engineer
           company: Samsung Research America
           company_url: 'https://www.sra.samsung.com/'
           company_logo: org-gc
