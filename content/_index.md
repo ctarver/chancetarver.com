@@ -77,7 +77,7 @@ sections:
         - title: Staff Systems Design/Architecture Engineer
           company: Samsung Research America
           company_url: 'https://www.sra.samsung.com/'
-          company_logo: sra.png
+          company_logo: sra
           location: Plano, Texas
           date_start: '2023-03-01'
           date_end: ''
@@ -90,7 +90,7 @@ sections:
         - title: Senior Systems Design/Architecture Engineer
           company: Samsung Research America
           company_url: 'https://www.sra.samsung.com/'
-          company_logo: sra.png
+          company_logo: sra
           location: Plano, Texas
           date_start: '2020-01-01'
           date_end: '2023-03-01'
