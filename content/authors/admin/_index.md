@@ -19,7 +19,7 @@ role: Staff Research Engineer for Wireless Systems
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Samsung Research America
-    url: https://www.stanford.edu/
+    url: https://www.sra.samsung.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: ""
