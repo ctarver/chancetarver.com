@@ -52,7 +52,9 @@ sections:
           date_start: '2023-03-01'
           date_end: ''
           description: |2-
-			XMIMO stuff
+             Project 1: Upper Mid-band Hybrid Massive MIMO Platform
+                * Leading development of RF PoC.
+                * Developed link-level simulator for rapid prototyping of related activities.
         - title: Senior Systems Design/Architecture Engineer
           company: Samsung Research America
           company_url: 'https://www.sra.samsung.com/'
@@ -61,17 +63,17 @@ sections:
           date_start: '2020-01-01'
           date_end: '2023-03-01'
           description: |2-
-			Project 1. Sub-band Full Duplex:
-			 * Developed digital self-interference suppression algorithm to reduce self-interference in massive MIMO.
-			 * Developed massive MIMO digital predistortion system to further reduce self-interference and meet emission requirements in 5G systems.
-			 * Implemented the above in a modular software platform to allow for agile development and rapid prototyping and integrated into real-time, FPGA, RF platform for field evaluation of performance.
-			Project 2. Satellite Communications System:
-			 * Developed modifications to RACH/HARQ procedures and implemented changes in srsLTE C++ to support long latency satellite links.
-			 * Created a chat client demo suite for the project using React JS consisting of push-to-talk, instant messaging, and image transfer.
-			• Completed a real-time demo of the above using USRPs and satellite channel emulator.
-			Project 3. Distributed MIMO:
-			* Developed software systems to interface with custom FPGA SDR platform.
-			* Led field testing of the platform to study distributed MIMO channels and reciprocity calibration concerns.     
+            Project 1. Sub-band Full Duplex:
+                * Developed digital self-interference suppression algorithm to reduce self-interference in massive MIMO.
+                * Developed massive MIMO digital predistortion system to further reduce self-interference and meet emission requirements in 5G systems.
+                * Implemented the above in a modular software platform to allow for agile development and rapid prototyping and integrated into real-time, FPGA, RF platform for field evaluation of performance.
+            Project 2. Satellite Communications System:
+                * Developed modifications to RACH/HARQ procedures and implemented changes in srsLTE C++ to support long latency satellite links.
+                * Created a chat client demo suite for the project using React JS consisting of push-to-talk, instant messaging, and image transfer.
+                * Completed a real-time demo of the above using USRPs and satellite channel emulator.
+            Project 3. Distributed MIMO:
+                * Developed software systems to interface with custom FPGA SDR platform.
+                * Led field testing of the platform to study distributed MIMO channels and reciprocity calibration concerns.
     design:
       columns: '2'
   - block: collection
