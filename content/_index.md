@@ -63,10 +63,11 @@ sections:
           date_start: '2020-01-01'
           date_end: '2023-03-01'
           description: |2-
-            Project 1. Sub-band Full Duplex: <br/>
-                - Developed digital self-interference suppression algorithm to reduce self-interference in massive MIMO.
-                - Developed massive MIMO digital predistortion system to further reduce self-interference and meet emission requirements in 5G systems.
-                - Implemented the above in a modular software platform to allow for agile development and rapid prototyping and integrated into real-time, FPGA, RF platform for field evaluation of performance.
+            Project 1. Sub-band Full Duplex: 
+            
+                * Developed digital self-interference suppression algorithm to reduce self-interference in massive MIMO.
+                * Developed massive MIMO digital predistortion system to further reduce self-interference and meet emission requirements in 5G systems.
+                * Implemented the above in a modular software platform to allow for agile development and rapid prototyping and integrated into real-time, FPGA, RF platform for field evaluation of performance.
             Project 2. Satellite Communications System: <br/>
                 - Developed modifications to RACH/HARQ procedures and implemented changes in srsLTE C++ to support long latency satellite links.
                 - Created a chat client demo suite for the project using React JS consisting of push-to-talk, instant messaging, and image transfer.
