@@ -14,12 +14,13 @@ authors:
 - Jinyoung Oh
 - Bin Yu
 - Gary Xu
-tags: []
+tags: ["XDD"]
 categories: []
 date: '2021-01-01'
 lastmod: 2023-04-27T20:53:21-05:00
 featured: false
 draft: false
+doi:  10.1109/ICCWorkshops50388.2021.9473856
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -34,11 +35,11 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["xdd"]
 publishDate: '2023-04-28T01:53:20.087306Z'
 publication_types:
 - '1'
 abstract: ''
-publication: '*2021 IEEE International Conference on Communications Workshops (ICC
-  Workshops)*'
+publication: '*2021 IEEE International Conference on Communications Workshops*'
+publication_short: 'ICC Workshops'
 ---
