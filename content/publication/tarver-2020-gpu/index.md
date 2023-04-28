@@ -5,7 +5,7 @@ title: Gpu-based linearization of mimo arrays
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Arav Singhal
 - Joseph R Cavallaro
 tags: []

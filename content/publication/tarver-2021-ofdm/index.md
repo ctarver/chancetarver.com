@@ -5,7 +5,7 @@ title: OFDM-based beam-oriented digital predistortion for massive MIMO
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Alexios Balatsoukas-Stimming
 - Christoph Studer
 - Joseph R Cavallaro

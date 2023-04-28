@@ -6,7 +6,7 @@ title: 'Low-complexity, sub-band dpd with sequential learning: Novel algorithms 
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Mahmoud Abdelaziz
 - Lauri Anttila
 - Mikko Valkama

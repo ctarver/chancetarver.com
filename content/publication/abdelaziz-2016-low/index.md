@@ -8,7 +8,7 @@ summary: ''
 authors:
 - Mahmoud Abdelaziz
 - Lauri Anttila
-- Chance Tarver
+- admin
 - Kaipeng Li
 - Joseph R Cavallaro
 - Mikko Valkama

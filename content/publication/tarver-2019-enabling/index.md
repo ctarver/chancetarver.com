@@ -6,7 +6,7 @@ title: Enabling a “Use-or-Share” Framework for PAL--GAA Sharing in CBRS Netw
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Matthew Tonnemacher
 - Vikram Chandrasekhar
 - Hao Chen

@@ -6,7 +6,7 @@ title: 'Low-complexity, multi sub-band digital predistortion: Novel algorithms a
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Mahmoud Abdelaziz
 - Lauri Anttila
 - Mikko Valkama

@@ -8,7 +8,7 @@ authors:
 - Khurram Muhammad
 - Jin Yuan
 - Shaomin Zhang
-- Chance Tarver
+- admin
 - Xinguang Xu
 - Yu Liu
 - Jie Li

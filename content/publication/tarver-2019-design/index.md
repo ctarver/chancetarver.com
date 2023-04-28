@@ -6,7 +6,7 @@ title: Design and implementation of a neural network based predistorter for enha
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Alexios Balatsoukas-Stimming
 - Joseph R Cavallaro
 tags: []

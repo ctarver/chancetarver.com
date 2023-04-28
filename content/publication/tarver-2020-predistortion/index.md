@@ -5,7 +5,7 @@ title: Predistortion of OFDM Waveforms using Guard-band Subcarriers
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Alexios Balatsoukas-Stimming
 - Joseph R Cavallaro
 tags: []

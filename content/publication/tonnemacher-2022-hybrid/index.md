@@ -1,13 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Hybrid gmp/equalizer digital self interference cancelation for mimo transmitters
+title: Hybrid GMP/Equalizer Digital Self Interference Cancelation for MIMO Transmitters
 subtitle: ''
 summary: ''
 authors:
 - Matthew Tonnemacher
 - Jin Yuan
-- Chance Tarver
+- admin
 - Khurram Muhammad
 tags: []
 categories: []
@@ -29,10 +29,10 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["xdd"]
 publishDate: '2023-04-28T01:53:26.722060Z'
 publication_types:
-- '0'
+- '8'
 abstract: ''
 publication: ''
 ---

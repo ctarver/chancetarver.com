@@ -1,11 +1,11 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Equalizer digital self-interference cancelation for mimo transmitters
+title: Equalizer digital self-interference cancelation for MIMO transmitters
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Matthew Tonnemacher
 - Khurram Muhammad
 tags: []
@@ -28,10 +28,10 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["xdd"]
 publishDate: '2023-04-28T01:53:27.699919Z'
 publication_types:
-- '0'
+- '8'
 abstract: ''
 publication: ''
 ---

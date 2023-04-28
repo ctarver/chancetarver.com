@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Equalizer assisted polynomial based linearity enhancement and self-interference
+title: Equalizer Assisted Polynomial Based Linearity Enhancement and Self-interference
   canceler
 subtitle: ''
 summary: ''
 authors:
 - Khurram Muhammad
 - Yu Liu
-- Chance Tarver
+- admin
 tags: []
 categories: []
 date: '2022-02-01'
@@ -29,7 +29,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["XDD"]
 publishDate: '2023-04-28T01:53:22.936009Z'
 publication_types:
 - '0'

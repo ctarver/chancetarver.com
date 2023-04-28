@@ -6,7 +6,7 @@ title: Neural network DPD via backpropagation through a neural network model of 
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Liwen Jiang
 - Aryan Sefidi
 - Joseph R Cavallaro

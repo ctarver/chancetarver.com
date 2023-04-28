@@ -5,7 +5,7 @@ title: Digital predistortion with low-precision ADCs
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Joseph R Cavallaro
 tags: []
 categories: []

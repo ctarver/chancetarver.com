@@ -8,7 +8,7 @@ authors:
 - Hyoungju Ji
 - Younsun Kim
 - Khurram Muhammad
-- Chance Tarver
+- admin
 - Matthew Tonnemacher
 - Seongmok Lim
 - Jaeveon Shim

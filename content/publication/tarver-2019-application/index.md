@@ -5,7 +5,7 @@ title: Application-specific accelerators for communications
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Yang Sun
 - Kiarash Amiri
 - Michael Brogioli

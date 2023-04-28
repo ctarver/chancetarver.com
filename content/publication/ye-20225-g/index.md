@@ -8,7 +8,7 @@ authors:
 - Qiaoyang Ye
 - Caleb Lo
 - Jeongho Jeon
-- Chance Tarver
+- admin
 - Matthew Tonnemacher
 - Jeongho Yeo
 - Joonyoung Cho

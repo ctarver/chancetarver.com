@@ -5,7 +5,7 @@ title: Virtual DPD Neural Network Predistortion for OFDM-based MU-massive MIMO
 subtitle: ''
 summary: ''
 authors:
-- Chance Tarver
+- admin
 - Alexios Balalsoukas-Slimining
 - Christoph Studer
 - Joseph R Cavallaro

@@ -5,8 +5,8 @@ title: Nonlinearity Correction in Massive MIMO Systems via Virtual DPD
 subtitle: ''
 summary: ''
 authors:
-- Chance Anthony Tarver
-tags: []
+- admin
+tags: ["vDPD"]
 categories: []
 date: '2022-01-01'
 lastmod: 2023-04-27T20:53:26-05:00
@@ -26,7 +26,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["vDPD"]
 publishDate: '2023-04-28T01:53:25.782670Z'
 publication_types:
 - '7'

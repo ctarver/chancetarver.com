@@ -8,7 +8,7 @@ summary: ''
 authors:
 - Kaipeng Li
 - Amanullah Ghazi
-- Chance Tarver
+- admin
 - Jani Boutellier
 - Mahmoud Abdelaziz
 - Lauri Anttila

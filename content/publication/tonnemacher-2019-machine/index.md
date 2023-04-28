@@ -1,12 +1,12 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Machine learning enhanced channel selection for unlicensed LTE
+title: Machine Learning Enhanced Channel Selection for Unlicensed LTE
 subtitle: ''
 summary: ''
 authors:
 - Matthew Tonnemacher
-- Chance Tarver
+- admin
 - Joseph Cavallar
 - Joseph Camp
 tags: []
@@ -29,7 +29,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["CBRS"]
 publishDate: '2023-04-28T01:53:12.552646Z'
 publication_types:
 - '1'

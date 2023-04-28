@@ -9,7 +9,7 @@ authors:
 - Younsun Kim
 - Taehyoung Kim
 - Khurram Muhammad
-- Chance Tarver
+- admin
 - Matthew Tonnemacher
 - Jinyoung Oh
 - Bin Yu
