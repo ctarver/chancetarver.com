@@ -34,5 +34,7 @@ publication_types: ['8']
 
 abstract: ''
 publication: ''
-url_pdf: 'https://patents.google.com/patent/US20230046481A1/en'
+links:
+- name: Google Patent
+  url: https://patents.google.com/patent/US20230046481A1/en
 ---

@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Gpu-based linearization of mimo arrays
+title: GPU-based linearization of MIMO arrays
 subtitle: ''
 summary: ''
 authors:
 - admin
 - Arav Singhal
 - Joseph R Cavallaro
-tags: []
+tags: ["GPU"]
 categories: []
 date: '2020-01-01'
 lastmod: 2023-04-27T20:53:16-05:00

@@ -6,8 +6,8 @@ title: 'Sub-Band Digital Predistortion for Noncontiguous Carriers: Implementatio
 subtitle: ''
 summary: ''
 authors:
-- Chance A Tarver
-tags: []
+- admin
+tags: ["DPD"]
 categories: []
 date: '2016-01-01'
 lastmod: 2023-04-27T20:53:04-05:00
@@ -27,7 +27,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["sub-band_DPD"]
 publishDate: '2023-04-28T01:53:03.199076Z'
 publication_types:
 - '7'

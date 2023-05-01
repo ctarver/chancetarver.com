@@ -29,10 +29,12 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["vDPD"]
 publishDate: '2023-04-28T01:53:18.179553Z'
 publication_types:
 - '1'
-abstract: ''
-publication: '*2021 IEEE International Symposium on Circuits and Systems (ISCAS)*'
+abstract: 'Linearization of massive MIMO arrays is a significant computational challenge that typically scales with the number of antennas. In this work, we introduce a beam-oriented digital predistortion (DPD) scheme for OFDM-based massive MIMO systems that applies predistortion before the precoder in the OFDM guard-band subcarriers. Using simulation results, we show that, for a 64 antenna massive MIMO array, our proposed method can achieve the same DPD performance as a conventional DPD method while requiring an order of magnitude fewer multiplications.'
+publication: '*2021 IEEE International Symposium on Circuits and Systems*'
+publication_short: 'ISCAS'
+doi: 10.1109/ISCAS51556.2021.9401479
 ---

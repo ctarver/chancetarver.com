@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "VDPD"
+title: "vDPD"
 summary: ""
 authors: []
 tags: []
@@ -39,3 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+Virtual DPD aims to reduce the complexity of DPD in multi antenna systems.

@@ -1,10 +1,10 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Sub Band_DPD"
+title: "SubBand DPD"
 summary: ""
 authors: []
-tags: []
+tags: ["DPD"]
 categories: []
 date: 2023-04-27T21:14:10-05:00
 
@@ -39,3 +39,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+In this project, we aimed to correct the nonlinearities in a subband. This may be useful in scenarios with carrier aggregation and can allow for DPD with a reduced sampling rate when compared to the usual 3-5x upsampling requirement.

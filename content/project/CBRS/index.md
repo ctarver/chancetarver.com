@@ -39,3 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+In this project, we aimmed to improve spectrum coexistence using machine learning for applications such as CBRS. 
