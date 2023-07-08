@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Design and implementation of a neural network based predistorter for enhanced
+title: Design and implementation of a neural-network based predistorter for enhanced
   mobile broadband
 subtitle: ''
 summary: ''
