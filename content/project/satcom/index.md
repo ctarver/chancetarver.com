@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Satcom"
+title: "Non-Terrestrial NR"
 summary: ""
 authors: []
 tags: []

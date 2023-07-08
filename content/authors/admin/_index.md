@@ -81,5 +81,4 @@ highlight_name: true
 ---
 
 I am a DSP systems engineer with Samsung Research America. I completed my [PhD at Rice University](https://www.ece.rice.edu/) with [Dr. Joseph Cavallaro](http://cavallaro.rice.edu/). 
-Please read the [Start Here](/me) page for more info and also consider signing up for my email newsletter below.
-
+Please read the [Start Here](/me) page for more info!!

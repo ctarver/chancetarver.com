@@ -28,10 +28,10 @@ sections:
           description: Background in PHY and MAC systems for 4G, 5G, Wi-Fi, etc.
           icon: wifi
           icon_pack: fas
-        - name: Open Education
-          description: Believes in sharing knowledge openly for the good of everyone. 
-          icon: chalkboard-teacher
-          icon_pack: fas
+        #- name: Open Education
+        #  description: Believes in sharing knowledge openly for the good of everyone. 
+        #  icon: chalkboard-teacher
+        #  icon_pack: fas
   - block: experience
     content:
       title: Experience
