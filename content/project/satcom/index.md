@@ -39,4 +39,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-SATCHAT
+
+
+In this project, Matthew Tonnemacher and I worked to implement changes to 4G in [srsLTE](https://www.srslte.com/) to support the long latency in a satellite link. I implemented a chat application using React to demo our system with USRPs and a satellite channel emulator.
+
