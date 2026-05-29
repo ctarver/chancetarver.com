@@ -1,0 +1,49 @@
+---
+import { site } from '@/site.config';
+import ThemeToggle from './ThemeToggle.astro';
+
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+function isActive(href: string) {
+  if (href === '/') return path === '/';
+  return path === href || path.startsWith(`${href}/`);
+}
+---
+
+<header
+  class="sticky top-0 z-40 w-full backdrop-blur supports-[backdrop-filter]:bg-[color-mix(in_srgb,var(--color-bg)_85%,transparent)] dark:supports-[backdrop-filter]:bg-[color-mix(in_srgb,var(--color-bg-dark)_85%,transparent)]"
+>
+  <div class="container-wide flex h-14 items-center justify-between">
+    <a
+      href="/"
+      class="font-mono text-sm font-medium tracking-tight transition-colors hover:text-[var(--color-accent)] dark:hover:text-[var(--color-accent-dark)]"
+    >
+      chance<span class="text-[var(--color-accent)] dark:text-[var(--color-accent-dark)]">.</span
+      >tarver
+    </a>
+    <nav class="flex items-center gap-1 text-sm">
+      {
+        site.nav.map((item) => {
+          const active = isActive(item.href);
+          const external = item.href.endsWith('.pdf');
+          return (
+            <a
+              href={item.href}
+              aria-current={active ? 'page' : undefined}
+              target={external ? '_blank' : undefined}
+              rel={external ? 'noopener noreferrer' : undefined}
+              class:list={[
+                'rounded-md px-3 py-1.5 transition-colors',
+                active
+                  ? 'text-[var(--color-accent)] dark:text-[var(--color-accent-dark)]'
+                  : 'text-[var(--color-muted)] hover:text-[var(--color-fg)] dark:text-[var(--color-muted-dark)] dark:hover:text-[var(--color-fg-dark)]',
+              ]}
+            >
+              {item.label}
+            </a>
+          );
+        })
+      }
+      <ThemeToggle />
+    </nav>
+  </div>
+</header>

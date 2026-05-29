@@ -1,0 +1,89 @@
+---
+import Base from '@/layouts/Base.astro';
+import { site } from '@/site.config';
+import { Icon } from 'astro-icon/components';
+---
+
+<Base title="About" description={`About ${site.name}.`}>
+  <article class="container-prose py-12 sm:py-16 prose-custom">
+    <h1>About</h1>
+    <p>
+      I'm a {site.role} at
+      {' '}<a class="link-quiet" href={site.links.samsungResearch} target="_blank" rel="noopener noreferrer">{site.org}</a>,
+      working on wireless systems and DSP for the next generation of radio
+      access. Today I manage the Platform Innovation Team within the Advanced
+      MIMO Lab, where my day-to-day spans upper mid-band (FR3) massive MIMO
+      platforms, advanced duplexing (XDD and sub-band full duplex), and
+      digital predistortion. It's the messy intersection of RF, signal processing, and
+      software where most of the interesting problems live.
+    </p>
+    <p>
+      I grew up in southwest Louisiana and started at
+      {' '}<a class="link-quiet" href={site.links.louisianaTech} target="_blank" rel="noopener noreferrer">Louisiana Tech</a>,
+      where I stacked a math degree onto electrical engineering because I
+      couldn't quite pick. Senior design was a 250 W HF power amplifier, which
+      in retrospect explains a lot about everything I've done since.
+    </p>
+    <p>
+      From Louisiana Tech I went to
+      {' '}<a class="link-quiet" href={site.links.rice} target="_blank" rel="noopener noreferrer">Rice University</a>,
+      first for an M.S. in Electrical & Computer Engineering. That thesis was on
+      low-complexity sub-band digital predistortion for noncontiguous LTE carrier
+      aggregation, a problem that started as a specific 5G spectrum-fragmentation
+      concern and kicked off a multi-year line of conference and journal papers
+      and a small Matlab library researchers still poke at. I stayed at Rice for
+      a Ph.D. under
+      {' '}<a class="link-quiet" href={site.links.cavallaro} target="_blank" rel="noopener noreferrer">Joseph R. Cavallaro</a>{' '}
+      and pivoted to neural networks for the radio. The dissertation,
+      {' '}<em>"Nonlinearity Correction in Massive MIMO Systems via Virtual DPD"</em>,
+      used a neural network to do predistortion before precoding in a massive
+      array, turning what had been a hardware problem into a software one.
+    </p>
+    <p>
+      I first joined
+      {' '}<a class="link-quiet" href={site.links.samsungResearch} target="_blank" rel="noopener noreferrer">Samsung Research America</a>{' '}
+      as an RF and PoC intern in 2017 and 2019, working on a GPU LDPC decoder
+      for vRAN and LTE spectrum-sharing tools in the CBRS band. I came on
+      full-time in 2020 and have been pushing on the systems side of advanced
+      cellular ever since: sub-band full duplex (XDD), distributed and hybrid
+      MIMO, satellite NR, GPU-based LDPC for vRAN, and an upper mid-band (FR3)
+      256-TRX massive MIMO PoC that I led the RF development for. In my current
+      role I'm leading the Platform Innovation Team within the Advanced MIMO
+      Lab, focused on GPU-based AI-RAN testbeds and AI-driven DPD for
+      high-efficiency PAs. A lot of the work shows up in the
+      {' '}<a class="link" href="/publications">publications list</a>{' '}and
+      {' '}<a class="link" href="/projects">projects page</a>.
+    </p>
+    <p>
+      Before Samsung went full-time, I spent a summer at
+      {' '}<a class="link-quiet" href={site.links.lockheedMartin} target="_blank" rel="noopener noreferrer"><strong>Lockheed Martin</strong></a>{' '}
+      doing SDR development with the Cyber Solutions IRAD group, building a
+      real-time wireless sensing application in GNU Radio. It's where I learned
+      how much fun a fast feedback loop between RF, software, and a deadline
+      can be.
+    </p>
+    <h2>Outside work</h2>
+    <p>
+      My wife Jennifer and I are based in Texas. When I'm not staring at a
+      constellation diagram I'm usually hiking, drinking coffee that is probably
+      too strong, or (yes, fine) running on Strava. I also write occasionally
+      about wireless and tooling on the {' '}<a class="link" href="/posts">posts page</a>.
+    </p>
+    <h2>Contact</h2>
+    <p>
+      The fastest way to reach me is
+      {' '}<a class="link" href={site.social.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+      I'm also on
+      {' '}<a class="link" href={site.social.github} target="_blank" rel="noopener noreferrer">GitHub</a>{' '}
+      and
+      {' '}<a class="link" href={site.social.scholar} target="_blank" rel="noopener noreferrer">Google Scholar</a>.
+      If email's your preference, send a note to
+      {' '}<a class="link" href={`mailto:${site.email}`}>{site.email}</a>.
+    </p>
+    <p>
+      <a class="link inline-flex items-center gap-1.5" href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+        <Icon name="lucide:file-text" class="h-4 w-4" /> Download CV (PDF)
+      </a>
+    </p>
+  </article>
+</Base>

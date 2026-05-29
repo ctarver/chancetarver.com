@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <g transform="translate(80, 80)">
+    <text x="0" y="40" font-family="ui-monospace, Menlo, Monaco, monospace" font-size="22" fill="#2dd4bf" letter-spacing="3">SENIOR STAFF RESEARCH ENGINEER</text>
+    <text x="0" y="260" font-family="ui-sans-serif, -apple-system, Helvetica, Arial, sans-serif" font-size="120" font-weight="600" fill="#ededed" letter-spacing="-3">Chance Tarver</text>
+    <text x="0" y="340" font-family="ui-sans-serif, -apple-system, Helvetica, Arial, sans-serif" font-size="34" fill="#9a9a9a">Wireless systems &amp; DSP at Samsung Research America.</text>
+    <text x="0" y="450" font-family="ui-monospace, Menlo, Monaco, monospace" font-size="22" fill="#9a9a9a">chancetarver.com</text>
+  </g>
+  <path d="M 80 530 L 1040 530" stroke="#0d7377" stroke-width="3"/>
+</svg>

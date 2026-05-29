@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import { formatDate } from '@/lib/format';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime(),
+);
+---
+
+<Base
+  title="Posts"
+  description="Occasional writing on wireless systems, DSP, and tooling."
+>
+  <section class="container-prose pt-12 pb-16 sm:pt-16">
+    <h1 class="text-3xl font-semibold tracking-tight sm:text-4xl">Posts</h1>
+    <p class="mt-3 text-[var(--color-muted)] dark:text-[var(--color-muted-dark)]">
+      Occasional writing on wireless systems, DSP, tooling, and whatever else is on the bench.
+    </p>
+
+    {
+      posts.length === 0 ? (
+        <div class="mt-10 rounded-md border border-dashed border-[var(--color-subtle)] p-8 text-center text-sm text-[var(--color-muted)] dark:border-[var(--color-subtle-dark)] dark:text-[var(--color-muted-dark)]">
+          Nothing here yet. Currently rebuilding. Subscribe via {' '}
+          <a href="/rss.xml" class="link">RSS</a> if you want updates when posts land.
+        </div>
+      ) : (
+        <ul class="mt-10 divide-y divide-[var(--color-subtle)] dark:divide-[var(--color-subtle-dark)]">
+          {posts.map((p) => (
+            <li class="py-5">
+              <a href={`/posts/${p.id.replace(/\.(md|mdx)$/, '')}`} class="group block">
+                <div class="flex items-baseline justify-between gap-4">
+                  <h2 class="text-lg font-medium transition-colors group-hover:text-[var(--color-accent)] dark:group-hover:text-[var(--color-accent-dark)]">
+                    {p.data.title}
+                  </h2>
+                  <time
+                    datetime={p.data.pubDate.toISOString()}
+                    class="font-mono text-xs whitespace-nowrap text-[var(--color-muted)] dark:text-[var(--color-muted-dark)]"
+                  >
+                    {formatDate(p.data.pubDate)}
+                  </time>
+                </div>
+                <p class="mt-1 text-sm text-[var(--color-muted)] dark:text-[var(--color-muted-dark)]">
+                  {p.data.description}
+                </p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  </section>
+</Base>

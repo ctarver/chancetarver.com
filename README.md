@@ -1,50 +1,91 @@
-# [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
+# chancetarver.com
 
-[![Screenshot](./preview.png)](https://wowchemy.com/hugo-themes/)
+Personal site for **Chance Tarver** — Senior Staff Research Engineer at Samsung Research America. Built with [Astro 5](https://astro.build), [Tailwind v4](https://tailwindcss.com), and deployed on [Cloudflare Pages](https://pages.cloudflare.com).
 
-The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+## Quick start
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://wowchemy.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/wowchemy?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+```bash
+npm install
+npm run dev         # http://localhost:4321
+npm run build       # → dist/
+npm run preview     # serve dist/ locally
+npm run check       # astro check (types + content schemas)
+```
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+Node 20+.
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+## Editing content
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://wowchemy.com/creators/).
+| What | Where |
+|---|---|
+| Bio, tagline, role, social, experience, nav | `src/site.config.ts` |
+| A publication | `src/content/publications/<slug>.md` |
+| A project | `src/content/projects/<slug>.md` |
+| A blog post | `src/content/posts/<slug>.md` (or `.mdx`) |
+| Theme colors, fonts | `src/styles/global.css` (`@theme` block) |
+| CV PDF | replace `public/cv.pdf` |
+| Favicon | `public/favicon.svg` |
+| OG card | `public/og-default.svg` (swap for a PNG before launch for max scraper support) |
+| Old-URL redirects | `public/_redirects` |
 
-The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+Frontmatter schemas live in `src/content.config.ts`. The build fails fast on a missing or mistyped field — useful, not annoying.
 
-- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli)
-- 💡 [Suggest an improvement](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+### Publication frontmatter (minimum)
 
-## We ask you, humbly, to support this open source movement
+```yaml
+---
+title: 'Paper title here'
+authors:
+  - 'Chance Tarver'
+  - 'Co-author Name'
+venue: 'IEEE Trans. Signal Processing'
+type: journal     # or conference | patent | thesis | preprint | book-chapter | workshop
+year: 2026
+date: 2026-03-15
+doi: '10.1109/...'         # optional
+pdf: 'https://...'         # optional (must be full URL)
+arxiv: 'https://arxiv.org/...'  # optional
+code: 'https://github.com/...'  # optional
+bibtex: |
+  @article{tarver2026,
+   ...
+  }
+featured: true    # surfaces on homepage
+tags: ['DPD', 'MIMO']
+---
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+Optional markdown body — shown on the publication detail page.
+```
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+## Deploying to Cloudflare Pages (one-time)
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+1. Push this repo to GitHub (or GitLab).
+2. Cloudflare dashboard → **Workers & Pages** → **Create application** → **Pages** → **Connect to Git** → pick the repo.
+3. Build settings:
+   - **Framework preset:** Astro
+   - **Build command:** `npm run build`
+   - **Build output directory:** `dist`
+   - **Environment variable:** `NODE_VERSION=22`
+4. **Custom domain:** Add `chancetarver.com` in the Pages project settings. Cloudflare will give you DNS instructions. If the domain isn't already on Cloudflare DNS, move the zone there first (free) — apex domains on Pages need it.
+5. **Web Analytics (optional, recommended):** Cloudflare dashboard → Web Analytics → enable for the Pages project. Zero code change; privacy-friendly; no cookie banner needed.
 
-<p align="center"><a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><img src="https://wowchemy.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Wowchemy Website Builder"></a></p>
+Every push to `main` → production deploy. Every PR → unique preview URL.
 
-## Demo image credits
+## Re-running the Hugo migration
 
-- [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
-- [Course](https://unsplash.com/photos/JKUTrJ4vK00)
+`npm run migrate` re-imports publications from `../chancetarver.com.legacy-hugo/content/publication/`. It is **destructive** — it overwrites the files in `src/content/publications/`, including any hand-edits like `featured: true`. Use it once at the start; after that, edit the markdown files directly.
 
-## Latest news
+## Pre-launch checklist
 
-<!--START_SECTION:news-->
-* [Easily make an academic CV website to get more cites and grow your audience 🚀](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;easily-make-academic-website&#x2F;)
-* [What&#39;s new in v5.2?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;whats-new-in-v5.2&#x2F;)
-* [What&#39;s new in v5.1?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;whats-new-in-v5.1&#x2F;)
-* [Version 5.0 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;version-5.0-february-2021&#x2F;)
-* [Version 5.0 Beta 3 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;version-5.0-beta-3-february-2021&#x2F;)
-<!--END_SECTION:news-->
+- [ ] Replace `public/cv.pdf` with the current CV.
+- [ ] Swap `public/og-default.svg` for an `og-default.png` (1200×630) and update the default in `src/components/SEO.astro`.
+- [ ] Drop a real headshot at `public/headshot.jpg` (square, ≥600×600) and flip `USE_PHOTO = true` in `src/components/Headshot.astro`. Until then, the hero shows a "CT" initials avatar.
+- [ ] **Set up Cloudflare Email Routing** for the burner alias used as the published contact. Cloudflare dashboard → your zone → Email → Email Routing → Routes → create `hello@chancetarver.com` → forward to your private inbox. Without this, mail sent to `hello@chancetarver.com` will bounce. The alias name is configured in `src/site.config.ts`.
+- [ ] Fill in `site.social.orcid` in `src/site.config.ts` if you have an ORCID iD.
+- [ ] Spot-check a few publications for accurate DOI / arXiv links (some legacy entries had placeholder DOIs that were dropped during import).
+- [ ] Submit `sitemap.xml` (built to `dist/sitemap-index.xml`) to Google Search Console after launch.
+- [ ] Verify the `_redirects` work on the Pages preview URL (e.g., `/publication/foo` → `/publications/foo`).
+
+## License
+
+Content (text, images): © Chance Tarver. Code: feel free to borrow.

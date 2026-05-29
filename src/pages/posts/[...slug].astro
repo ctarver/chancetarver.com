@@ -1,0 +1,36 @@
+---
+import { getCollection, render } from 'astro:content';
+import { Icon } from 'astro-icon/components';
+import Base from '@/layouts/Base.astro';
+import { formatDate } from '@/lib/format';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('posts', ({ data }) => !data.draft);
+  return entries.map((entry) => ({
+    params: { slug: entry.id.replace(/\.(md|mdx)$/, '') },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const { Content } = await render(entry);
+---
+
+<Base title={data.title} description={data.description} article={true}>
+  <article class="container-prose py-12 sm:py-16">
+    <a href="/posts" class="link inline-flex items-center gap-1 text-sm">
+      <Icon name="lucide:arrow-left" class="h-3.5 w-3.5" /> Posts
+    </a>
+    <header class="mt-6">
+      <h1 class="text-3xl font-semibold tracking-tight sm:text-4xl">{data.title}</h1>
+      <p class="mt-2 font-mono text-xs uppercase tracking-wider text-[var(--color-muted)] dark:text-[var(--color-muted-dark)]">
+        <time datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>
+        {data.updated && <span> · updated {formatDate(data.updated)}</span>}
+      </p>
+    </header>
+    <section class="mt-8 prose-custom">
+      <Content />
+    </section>
+  </article>
+</Base>
