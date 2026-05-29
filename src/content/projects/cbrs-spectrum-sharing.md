@@ -26,7 +26,7 @@ bounded.
 
 ## Selected publications
 
-- **[Enabling a "Use-or-Share" Framework for PAL–GAA Sharing in CBRS Networks via Reinforcement Learning](/publications/tarver-2019-enabling)** — IEEE Transactions on Cognitive Communications and Networking (2019). Journal paper formalizing the RL-aided LBT policy and showing the resulting spatial-reuse / interference trade-off.
-- **[Opportunistic Channel Access Using Reinforcement Learning in Tiered CBRS Networks](/publications/tonnemacher-2018-opportunistic)** — IEEE DySPAN 2018. The original RL-for-CBRS paper that the journal work extended.
-- **[Machine Learning Enhanced Channel Selection for Unlicensed LTE](/publications/tonnemacher-2019-machine)** — IEEE DySPAN 2019. Channel selection for unlicensed LTE eNBs that takes into account Wi-Fi APs and other LTE operators by sharing channel-utilization statistics.
-- **[Method and Apparatus for Improving Coexistence Performance by Measurements in Wireless Communication Systems](/publications/huang-2021-method)** — U.S. Patent 11,032,717 (2021). Granted patent on the measurement scaffolding behind coexistence policies.
+- **[Enabling a "Use-or-Share" Framework for PAL–GAA Sharing in CBRS Networks via Reinforcement Learning](/publications/tarver-2019-enabling/)** — IEEE Transactions on Cognitive Communications and Networking (2019). Journal paper formalizing the RL-aided LBT policy and showing the resulting spatial-reuse / interference trade-off.
+- **[Opportunistic Channel Access Using Reinforcement Learning in Tiered CBRS Networks](/publications/tonnemacher-2018-opportunistic/)** — IEEE DySPAN 2018. The original RL-for-CBRS paper that the journal work extended.
+- **[Machine Learning Enhanced Channel Selection for Unlicensed LTE](/publications/tonnemacher-2019-machine/)** — IEEE DySPAN 2019. Channel selection for unlicensed LTE eNBs that takes into account Wi-Fi APs and other LTE operators by sharing channel-utilization statistics.
+- **[Method and Apparatus for Improving Coexistence Performance by Measurements in Wireless Communication Systems](/publications/huang-2021-method/)** — U.S. Patent 11,032,717 (2021). Granted patent on the measurement scaffolding behind coexistence policies.

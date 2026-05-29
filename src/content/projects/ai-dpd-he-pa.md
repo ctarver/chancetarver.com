@@ -27,9 +27,9 @@ them.
 
 ## Selected publications
 
-- **[AI-Based Digital Pre-Distortion for Digital Envelope Tracking Power Amplifiers](/publications/tonnemacher-2025-ai-dpd)** — U.S. Patent Application (2025). AI DPD designed specifically for digital envelope-tracking PA architectures.
-- **[Non-Uniform Discrete Envelope Tracking](/publications/tarver-2026-discrete-et)** — U.S. Patent Application (2026). Discrete-level envelope tracking with non-uniform spacing.
-- **[Non-Periodic Digital Envelope Tracking for Power Amplifiers](/publications/shahshahani-2026-aperiodic)** — U.S. Patent Application (2026). Non-periodic envelope-tracking variant.
-- **[Adaptive Multi-Level Envelope Tracking Design for Digital Envelope Trackers](/publications/sharma-2026-envelope)** — U.S. Patent Application (2026). Adaptive multi-level ET design.
-- **[Power Amplifier-Aware Modulation](/publications/lo-2026-power)** — U.S. Patent 12,542,570 (2026). Modulation choices made jointly with the PA's operating point. Granted patent.
-- **[Power Amplifier Efficiency Based Resource Scheduler](/publications/sahin-2026-pa-scheduler)** — U.S. Patent Application (2026). Scheduler that takes PA efficiency into account as a first-class objective.
+- **[AI-Based Digital Pre-Distortion for Digital Envelope Tracking Power Amplifiers](/publications/tonnemacher-2025-ai-dpd/)** — U.S. Patent Application (2025). AI DPD designed specifically for digital envelope-tracking PA architectures.
+- **[Non-Uniform Discrete Envelope Tracking](/publications/tarver-2026-discrete-et/)** — U.S. Patent Application (2026). Discrete-level envelope tracking with non-uniform spacing.
+- **[Non-Periodic Digital Envelope Tracking for Power Amplifiers](/publications/shahshahani-2026-aperiodic/)** — U.S. Patent Application (2026). Non-periodic envelope-tracking variant.
+- **[Adaptive Multi-Level Envelope Tracking Design for Digital Envelope Trackers](/publications/sharma-2026-envelope/)** — U.S. Patent Application (2026). Adaptive multi-level ET design.
+- **[Power Amplifier-Aware Modulation](/publications/lo-2026-power/)** — U.S. Patent 12,542,570 (2026). Modulation choices made jointly with the PA's operating point. Granted patent.
+- **[Power Amplifier Efficiency Based Resource Scheduler](/publications/sahin-2026-pa-scheduler/)** — U.S. Patent Application (2026). Scheduler that takes PA efficiency into account as a first-class objective.

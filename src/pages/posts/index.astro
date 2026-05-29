@@ -28,7 +28,7 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft)).sort(
         <ul class="mt-10 divide-y divide-[var(--color-subtle)] dark:divide-[var(--color-subtle-dark)]">
           {posts.map((p) => (
             <li class="py-5">
-              <a href={`/posts/${p.id.replace(/\.(md|mdx)$/, '')}`} class="group block">
+              <a href={`/posts/${p.id.replace(/\.(md|mdx)$/, '')}/`} class="group block">
                 <div class="flex items-baseline justify-between gap-4">
                   <h2 class="text-lg font-medium transition-colors group-hover:text-[var(--color-accent)] dark:group-hover:text-[var(--color-accent-dark)]">
                     {p.data.title}

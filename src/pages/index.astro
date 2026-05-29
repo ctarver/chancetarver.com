@@ -38,7 +38,7 @@ const featuredProjects = allProjects
           <h2 class="text-sm font-mono uppercase tracking-wider text-[var(--color-muted)] dark:text-[var(--color-muted-dark)]">
             Featured Projects
           </h2>
-          <a href="/projects" class="link text-sm">All projects →</a>
+          <a href="/projects/" class="link text-sm">All projects →</a>
         </div>
         <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {featuredProjects.map((p) => <ProjectCard entry={p} />)}
@@ -54,7 +54,7 @@ const featuredProjects = allProjects
       >
         Selected Publications
       </h2>
-      <a href="/publications" class="link text-sm">All publications →</a>
+      <a href="/publications/" class="link text-sm">All publications →</a>
     </div>
     <div class="mt-4 divide-y divide-[var(--color-subtle)] dark:divide-[var(--color-subtle-dark)]">
       {[...featuredPubs, ...recentPubs.slice(0, Math.max(0, 6 - featuredPubs.length))].slice(0, 8).map((p) => (

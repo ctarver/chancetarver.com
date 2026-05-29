@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://chancetarver.com',
-  trailingSlash: 'never',
+  trailingSlash: 'always',
   build: {
     format: 'directory',
   },

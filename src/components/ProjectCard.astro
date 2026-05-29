@@ -8,7 +8,7 @@ interface Props {
 
 const { entry } = Astro.props;
 const { data } = entry;
-const detailHref = `/projects/${entry.id.replace(/\.md$/, '')}`;
+const detailHref = `/projects/${entry.id.replace(/\.md$/, '')}/`;
 ---
 
 <a

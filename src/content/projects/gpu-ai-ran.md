@@ -35,11 +35,11 @@ constraints.
 
 ### AI-RAN (2024–Present)
 
-- **[Sim2Field: End-to-End Development of AI RANs for 6G](/publications/ford-2025-sim2field)** — 2nd ACM Workshop on Open and AI RAN (2025). End-to-end methodology for developing AI features for 6G RANs: simulation, training, and field validation as one pipeline.
+- **[Sim2Field: End-to-End Development of AI RANs for 6G](/publications/ford-2025-sim2field/)** — 2nd ACM Workshop on Open and AI RAN (2025). End-to-end methodology for developing AI features for 6G RANs: simulation, training, and field validation as one pipeline.
 
 ### GPU-Accelerated RAN Workloads (2017–2021)
 
-- **[GPU-Based, LDPC Decoding for 5G and Beyond](/publications/tarver-2021-gpu)** — IEEE Open Journal of Circuits and Systems (2021). Journal-length treatment with the full set of techniques: reduced-precision LLRs, multi-stream parallelization, and OpenAirInterface integration.
-- **[GPU-Based LDPC Decoding for vRAN Systems in 5G and Beyond](/publications/tarver-2020-ldpc)** — IEEE ISCAS 2020. The conference introduction of the decoder, including 8-bit LLR representation and multi-stream parallelism to hit 5G latency targets.
-- **[GPU-Based Linearization of MIMO Arrays](/publications/tarver-2020-gpu)** — IEEE SiPS 2020. GPU implementation of per-antenna DPD across a MIMO array — the linearization-side counterpart to the LDPC work in the same era. (Also appears under [AI-based Virtual DPD for MIMO](/projects/virtual-dpd) where it supports the NN DPD line.)
-- **[Application-Specific Accelerators for Communications](/publications/tarver-2019-application)** — Handbook of Signal Processing Systems (book chapter). Broader chapter on accelerator design for communications workloads, with vRAN LDPC as one of the case studies.
+- **[GPU-Based, LDPC Decoding for 5G and Beyond](/publications/tarver-2021-gpu/)** — IEEE Open Journal of Circuits and Systems (2021). Journal-length treatment with the full set of techniques: reduced-precision LLRs, multi-stream parallelization, and OpenAirInterface integration.
+- **[GPU-Based LDPC Decoding for vRAN Systems in 5G and Beyond](/publications/tarver-2020-ldpc/)** — IEEE ISCAS 2020. The conference introduction of the decoder, including 8-bit LLR representation and multi-stream parallelism to hit 5G latency targets.
+- **[GPU-Based Linearization of MIMO Arrays](/publications/tarver-2020-gpu/)** — IEEE SiPS 2020. GPU implementation of per-antenna DPD across a MIMO array — the linearization-side counterpart to the LDPC work in the same era. (Also appears under [AI-based Virtual DPD for MIMO](/projects/virtual-dpd/) where it supports the NN DPD line.)
+- **[Application-Specific Accelerators for Communications](/publications/tarver-2019-application/)** — Handbook of Signal Processing Systems (book chapter). Broader chapter on accelerator design for communications workloads, with vRAN LDPC as one of the case studies.

@@ -17,10 +17,10 @@ export const site = {
     orcid: '',
   },
   nav: [
-    { label: 'About', href: '/about' },
-    { label: 'Publications', href: '/publications' },
-    { label: 'Projects', href: '/projects' },
-    { label: 'Posts', href: '/posts' },
+    { label: 'About', href: '/about/' },
+    { label: 'Publications', href: '/publications/' },
+    { label: 'Projects', href: '/projects/' },
+    { label: 'Posts', href: '/posts/' },
     { label: 'CV', href: '/cv.pdf' },
   ],
   links: {
